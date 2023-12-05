@@ -1,0 +1,64 @@
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html">
+            <img src="../img/Imagen de WhatsApp 2023-11-30 a las 21.17.15_cbcc47bc.png" width="81" height="65"
+                alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Productos</a>
+                </li>
+            </ul>
+            <a class="navbar-brand" href="home.html">
+        <img src="../img/user_2102633 (1).png "  alt="Logo"> Tienda random
+    </a>
+        </div>
+  
+
+
+    <div class="circulo-nav">
+        <a href="">
+            <img src="./tienda.png" alt="">
+        </a>
+    </div>
+
+    </nav>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-3 col-sm-12 shadow p-3 m-3 text-center">
+                <div class="circulo">
+                    <img src="../img/7431863.jpg" alt="imagen">
+                </div>
+                <h2>Tienda Randon</h2>
+                <p>Vendedor</p>
+                <a class="btn btn-custom" routerLink="Productos">Inventario</a>
+                <a class="btn btn-custom p-2" routerLink="Categorias">Categorias</a>
+                <a class="btn btn-custom"routerLink="Ofertas">Ofertas</a>
+                <a class="btn btn-custom" routerLink="Pedidos">Pedidos</a>
+                <a class="btn btn-custom" routerLink="PQRS">PQRS</a>
+                <br>
+                <br>
+                <br>
+                <a href="inventario_vendedor.html" class="btn btn-custom">Cerrar Sesion</a>
+            </div>
+
+            <div class="col-lg-8 col-sm-12 m-3 p-3 border shadow">
+             <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</body>
+<app-footer></app-footer>
+
+ 
+
+
