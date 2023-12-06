@@ -20,7 +20,7 @@ import { ProductoCompradorComponent } from './Modules/Comprador/productoComprado
 import { AuthGuard } from './Core/auth.guard';
 
 const routes: Routes = [
-  {path:'Vendedor', component: VendedorIndexComponent, canActivate:[AuthGuard],
+  {path:'Vendedor', component: VendedorIndexComponent, 
   children:[
     {path:'Productos', component: ProductoComponent},
     {path:'Pedidos', component: PedidosComponent},
@@ -35,7 +35,7 @@ children:[
   {path:'locales', component: CompradorLocalesComponent}
 ]
 },
-{path:'info', component:CompradorInfoComponent, canActivate:[AuthGuard],
+{path:'info', component:CompradorInfoComponent, 
 children:[
   {path:'', component:InformacionCompradorComponent},
   {path:'informacion',component:InformacionCompradorComponent},
